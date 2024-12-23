@@ -1,0 +1,268 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+}
+:root
+{
+    --black:#000;
+    --silver:rgb(245, 245, 245);
+    --gray:gray;
+    --green:rgb(0, 148, 0);
+    --white:#fff;
+}
+.container
+{
+    padding: 15px 0px;
+    margin: auto;
+}
+@media (max-width:768px)
+{
+    .container
+    {
+        width: 750px;
+    }
+}
+@media (max-width:992px)
+{
+    .container
+    {
+        width: 970px;
+    }
+}
+@media (max-width:1200px)
+{
+    .container
+    {
+        width: 1170px;
+    }
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+img
+{
+    max-width: 100%;
+}
+
+.hero .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.info h1
+{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-shop
+{
+        padding: 15px 20px;
+        background-color: var(--green);
+        color: var(--white);
+        border-radius: 5px;
+        line-height: 140px;
+}
+.images
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.pic
+{
+    padding: 80px;
+}
+.title
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 150px;
+}
+.title h5
+{
+    text-transform: uppercase;
+    padding: 0px 50px;
+    font-weight: 900;
+    font-size: 13px;
+}
+.text h4
+{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.produce
+{
+    padding: 0px 100px;
+    padding-top: 40px;
+}
+
+.default
+{
+    padding: 0px 100px;
+    padding-top: 75px;
+}
+.produce h1 > span
+{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.produce h1
+{
+    font-size: 65px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-1
+{
+    padding: 10px 20px;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 30px;
+}
+.btn-2
+{
+    padding: 10px 20px;
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid var(--green);
+    border-radius: 30px;
+    font-weight: 600;
+}
+hr
+{
+    width: 88%;
+    margin: auto;
+    background-color: rgba(223, 223, 223, 0.973);
+}
+.card-container
+{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.card
+{
+    width: 350px;
+    background-color: rgb(253, 248, 248);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 30px;
+}
+.card img
+{
+    width: 100%;
+    height: auto;
+}
+.card-content, .item-content
+{
+    padding: 16px;
+}
+.card-content h3, .item-content h3
+{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.card-content span, .item-content span
+{
+    color: var(--green);
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-content p
+{
+    color: #666;
+    font-size: 15px;
+    line-height: 45px;
+}
+.item
+{
+    width: 800px;
+    background-color: rgb(253, 248, 248);
+    padding-right: 400px;
+    margin: 30px;
+    border-radius: 15px;
+    border: 2px solid var(--silver);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 100px;
+}
+.item-content p
+{
+    color: var(--black);
+    background-color: var(--white);
+    padding: 3px 10px;
+    border-radius: 15px;
+    border: 2px solid var(--silver);
+    font-weight: 600;
+    margin: 10px;
+    width: 100px;
+}
+.basket
+{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.order
+{
+    margin-top: 50px;
+    background-color: rgb(253, 248, 248);
+    padding-right: 200px;
+    margin: 30px;
+    border-radius: 15px;
+    border: 2px solid var(--silver);
+    padding: 10px 30px;
+}
+.order h3
+{
+    padding: 20px 0px;
+}
+.price
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+.price p
+{
+    padding-right: 150px;
+}
+.pay
+{
+    padding: 10px 55px;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 7px;
+    line-height: 50px;
+}

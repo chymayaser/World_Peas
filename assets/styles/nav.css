@@ -1,0 +1,147 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+}
+:root
+{
+    --black:#000;
+    --silver:rgb(221, 220, 220);
+    --gray:gray;
+    --green:rgb(0, 148, 0);
+    --white:#fff;
+}
+.container
+{
+    padding: 15px 0px;
+    margin: auto;
+}
+@media (max-width:768px)
+{
+    .container
+    {
+        width: 750px;
+    }
+}
+@media (max-width:992px)
+{
+    .container
+    {
+        width: 970px;
+    }
+}
+@media (max-width:1200px)
+{
+    .container
+    {
+        width: 1170px;
+    }
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+
+  .logo a
+    {
+        font-size: 30px;
+        font-weight: 600;
+        color: var(--green);
+        font-family:'Times New Roman', Times, serif;
+    }
+header
+{
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    padding: 20px 55px;
+}
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container nav input {
+    appearance: none;
+  }
+@media (max-width:991px)
+{
+.container
+{
+    width: 400px;
+}
+    header nav
+    {
+        position: relative;
+    }
+    header nav input
+    {
+        appearance: none;
+    }
+    header nav label img
+    {
+        cursor: pointer;
+    }
+    header nav input:checked + ul 
+    {
+        display: block;
+    }
+    header nav ul 
+   {
+    display: none;
+   }
+   header nav ul {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    min-width: 250px;
+    background-color: var(--white);
+    z-index: 10;
+  }
+   header nav ul li a
+   {
+    display: block;
+    padding: 15px 0px;
+    color: var(--black);
+   }
+   header nav ul li:not(:last-child) {
+    border-bottom: 1px solid rgb(0 0 0 / 0.1);
+  }
+}
+   @media (min-width:992px)
+   {
+    header nav label,
+    header nav input {
+      display: none;
+    }
+    header .container nav ul
+{
+    display: flex;
+    gap: 20px;
+}
+    header nav ul li {
+      padding: 10px;
+    }
+    header nav ul li a {
+      color: var(--black);
+      font-weight: 600;
+    }
+    header nav ul li .btn-nav
+    {
+        padding: 15px 20px;
+        background-color: var(--green);
+        color: var(--white);
+        border-radius: 5px;
+    } 
+}
